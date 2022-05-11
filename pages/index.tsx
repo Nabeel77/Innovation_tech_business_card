@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   const [firstRender, setFirstRender] = useState(0);
   const [sectionsIds, setSectionsIds] = useState([]);
   const [isBrowser, setIsBrowser] = useState(false);
-  const contentItems = [<Hero/>, <About/>, <RoadMap/>,  <Team/>];
+  const contentItems = [<Hero key={0}/>, <About key={1}/>, <RoadMap key={2}/>,  <Team key={3}/>];
   
   useEffect(() => {
     setIsBrowser(typeof window !== undefined ? true : false);
