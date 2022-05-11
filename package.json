@@ -1,0 +1,39 @@
+{
+  "name": "galaxity-landing",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "next": "12.0.7",
+    "next-fonts": "^1.5.1",
+    "react": "17.0.2",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-in-viewport": "^1.0.0-alpha.27",
+    "react-router-dom": "^6.3.0",
+    "react-scroll-motion": "^0.2.6",
+    "react-slick": "^0.28.1",
+    "react-tsparticles": "^2.0.6",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3",
+    "tsparticles": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "@types/node": "16.11.13",
+    "@types/react": "17.0.37",
+    "@types/react-slick": "^0.23.7",
+    "@types/styled-components": "^5.1.18",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "typescript": "4.5.4"
+  }
+}
