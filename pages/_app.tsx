@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
           <meta name="viewport" content="width=device-width, user-scalable=no"/>
-          <link rel="icon" type="image/png"  sizes="32x32" href="/images/galaxity_logo.png" />
+          <link rel="icon" type="image/png"  sizes="32x32" href="/images/logo.jpeg" />
       </Head>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
